@@ -1,0 +1,42 @@
+Model: Logistic Regression
+              precision    recall  f1-score   support
+
+           0       0.83      0.96      0.89      1607
+           1       0.55      0.20      0.29       393
+
+    accuracy                           0.81      2000
+   macro avg       0.69      0.58      0.59      2000
+weighted avg       0.78      0.81      0.77      2000
+Confusion Matrix:
+[[1543   64]
+ [ 314   79]]
+AUC-ROC: 0.7789
+============================================================
+Model: Random Forest
+              precision    recall  f1-score   support
+
+           0       0.88      0.96      0.92      1607
+           1       0.75      0.46      0.57       393
+
+    accuracy                           0.86      2000
+   macro avg       0.81      0.71      0.75      2000
+weighted avg       0.85      0.86      0.85      2000
+Confusion Matrix:
+[[1545   62]
+ [ 211  182]]
+AUC-ROC: 0.8563
+============================================================
+Model: Gradient Boosting
+              precision    recall  f1-score   support
+
+           0       0.88      0.96      0.92      1607
+           1       0.74      0.47      0.58       393
+
+    accuracy                           0.86      2000
+   macro avg       0.81      0.72      0.75      2000
+weighted avg       0.85      0.86      0.85      2000
+Confusion Matrix:
+[[1542   65]
+ [ 207  186]]
+AUC-ROC: 0.8716
+============================================================
